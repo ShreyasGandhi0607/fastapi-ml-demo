@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python-specific files
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Environment variables or config
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Lock or dependency files (optional)
+poetry.lock
+*.lock
+
+# Model files
+# model/*.pkl
+
+# Uvicorn reload artifacts
+*.reload
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+.cache/
+
+# Notebook execution artifacts
+*.out
