@@ -51,18 +51,27 @@ streamlit run app.py
 
 ```
 ml-model-inferencing/
-├── app.py
-├── main.py
-├── model/
-│   └── model.pkl
-├── data/
-│   └── insurance.csv
-├── notebook/
-│   └── fastapi_ml_model.ipynb
-├── requirements.txt
-├── pyproject.toml
-├── uv.lock
-└── README.md
+├─ config/
+│  └─ city_tier.py
+├─ data/
+│  └─ insurance.csv
+├─ model/
+│  ├─ model.pkl
+│  └─ predict.py
+├─ notebook/
+│  └─ fastapi_ml_model.ipynb
+├─ schema/
+│  ├─ prediction_response.py
+│  └─ user_input.py
+├─ .gitignore
+├─ .python-version
+├─ app.py
+├─ main.py
+├─ pyproject.toml
+├─ README.md
+├─ requirements.txt
+└─ uv.lock
+
 ```
 
 
